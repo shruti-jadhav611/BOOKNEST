@@ -1,5 +1,5 @@
 from flask import Flask,render_template,request
-import cloudpickle as pickle
+import pickle
 import numpy as np
 popular_df=pickle.load(open('popular.pkl','rb'))
 pt=pickle.load(open('pt.pkl','rb'))
